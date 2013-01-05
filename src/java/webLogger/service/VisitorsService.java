@@ -1,4 +1,4 @@
-package webTrap.service;
+package webLogger.service;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

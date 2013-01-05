@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package webTrap.controller;
+package webLogger.controller;
 
 import java.nio.charset.Charset;
 
