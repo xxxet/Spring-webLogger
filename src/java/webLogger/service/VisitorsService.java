@@ -18,8 +18,8 @@ import org.springframework.transaction.annotation.Transactional;
 public class VisitorsService {
 //TODO handle exceptions, @transactional
     private NamedParameterJdbcTemplate jdbcTemplate;
-    public final static String SQL_SELECT_ALL = "select ip, to_char(date,'YYYY-MM-DD hh24:mm:ss tz') as date, post, useragent from visitors order by date desc";
-    public final static String SQL_SELECT_ONE = "select ip, to_char(date,'YYYY-MM-DD hh24:mm:ss tz') as date, post, useragent from visitors where  ip=:ip";
+    public final static String SQL_SELECT_ALL = "select ip,  to_char(date, 'HH24:MI:SS yyyy-mm-dd tz') as date, post, useragent from visitors order by date desc";
+    public final static String SQL_SELECT_ONE = "select ip,  to_char(date, 'HH24:MI:SS yyyy-mm-dd tz') as date, post, useragent from visitors where  ip=:ip";
     public final static String SQL_UPDATE = "update visitors set date=now(), post=:post where ip=:ip";
     public final static String SQL_UPDATE_USERAGENT = "update visitors set date=now(), useragent=:useragent where ip=:ip";
     public final static String SQL_DELETE = "delete * from visitors";
