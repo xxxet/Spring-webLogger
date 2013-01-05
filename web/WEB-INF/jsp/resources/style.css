@@ -1,0 +1,91 @@
+body {
+    background: none repeat scroll 0 0 #DDDDDD;
+    margin: 0;
+    font-size: large;
+}
+#left_shad {
+    background-image: url("border_l.jpg");
+    float: left;
+    height: 100%;
+    width: 10px;
+    position: fixed;
+}
+#main {
+    background: none repeat scroll 0 0 #EEEEEE;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 900px;
+}
+#right_shad {
+    background-image: url("border_r.jpg");
+    background-repeat: repeat-y;
+    float: right;
+    height: 100%;
+    width: 10px;
+}
+#right_shad2 {
+    background-image: url("border_r.jpg");
+    background-repeat: repeat-y;
+    float: right;
+    height: 100%;
+    width: 10px;
+    position: fixed;
+}
+#tagline {
+    font-size: medium;
+}
+#title {
+    display: block;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+#header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #cccccc;
+    margin-bottom: 12px;
+	text-align:center;
+}
+
+#logo{
+ border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #cccccc;
+    margin-bottom: 12px;
+	text-align:center;
+}
+
+#content > div > div {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #cccccc;
+    margin: 0 15px;
+    word-break: break-word;
+}
+
+.flag {
+    height: 13px;
+    width: 26px;
+}
+#inlist {
+    display: block;
+    margin-bottom: 20px;
+}
+a:link {
+    color: #009999;
+}
+
+#msg_form {
+    width: 489px;
+}
+
+#loading_anim {
+    display: none;
+}
+#hidden_gif {
+    display: none;
+}
+#formholder {
+    display: inline;
+}
